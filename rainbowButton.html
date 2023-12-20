@@ -14,8 +14,8 @@
         let colorIndex = 0;
         function rainbowButton() {
             document.body.style.background = colors[colorIndex];
-            document.body.style.color = colors{colorIndex % 7};
             colorIndex++;
+            if(colorIndex >= 7) colorIndex = 0;
         }
 
     </script>
