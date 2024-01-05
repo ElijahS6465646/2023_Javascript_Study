@@ -10,6 +10,7 @@ buttons.forEach(
 /// Calculate Function - event handler for all buttons///
 function calculate(event){
     ///What button was clicked?///
+
     const clickedValue = event.target.value;
 
     ///Check if = sign was clicked///
